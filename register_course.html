@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Course Registration</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register_course.css">
+</head>
+<body>
+
+    <header>
+        <div class="ug_logo">
+            <img src="images/UG_LOGO.png" alt="UNIVERSITY OF GHANA">
+        </div>
+        <nav class="main_nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallary.html">GALLARY</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+            </ul>
+        </nav>
+            <form action="button" method="post">
+                <input class="search_box" type="text" placeholder="Search">
+                <input class="search_button" type="button" value="SEARCH">
+            </form>
+    </header>
+
+    <div class="reg">
+        <form action="#" method="post">
+            <h2>Short Course Registration</h2>
+
+            <div class="input-group" id="personal-info">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="input-group" id="course-info">
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="web-programming">Web Programming</option>
+                    <option value="mobile-app-development">Mobile App Development</option>
+                    <option value="ethical-hacking">Ethical Hacking</option>
+                    <option value="network-fundamentals">Network Fundamentals</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="experience">Programming Experience (in years):</label>
+                <input type="number" id="experience" name="experience" min="0" required>
+            </div>
+
+            <div class="input-group" id="additional-info">
+                <label for="school">School Background:</label>
+                <input type="text" id="school" name="school">
+            </div>
+
+            <div class="input-group">
+                <label for="education-level">Level of Education:</label>
+                <input type="text" id="education-level" name="education-level">
+            </div>
+
+            <div class="input-group">
+                <label for="certificates">Certificates (if any):</label>
+                <textarea id="certificates" name="certificates" rows="4"></textarea>
+            </div>
+
+            <div class="input-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+
+            <div class="input-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 Advanced Computer Science Department</p>
+        </div>
+    </footer>
+
+</body>
+</html>
