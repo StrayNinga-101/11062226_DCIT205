@@ -1,0 +1,88 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 40vh;
+    background-color: #00000083;
+    border-top: solid 1px #1e3552;
+    display: flex;
+    justify-content: left;
+}
+
+main .main_intro {
+    position: relative;
+    margin-top: 5vh;
+    left: 5vh;
+}
+
+
+main .main_intro h1 {
+    font-size: 55px;
+    line-height: 65px;
+}
+
+main  p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+main  a {
+    margin-top: 30px;
+    font-size: 20px;
+    display: block;
+    background-color: #2b5283;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+main .main_quote {
+    position: relative;
+    margin-top: 5vh;
+    left: 20vh;
+}
+
+main .main_quote p {
+    border-left: 4px solid #5a7ca7;
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+
+
+
+.courses {
+    display: flex;
+    width: 100%;
+    height: 48vh;
+}
+
+.partition {
+    background-color: #234774;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.partition img {
+    width: 35vh;
+    height: 22vh;
+    border-radius: 5px;
+}
+
+.partition h1 {
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #6185b1;
+}
+
+.partition p {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 16px;
+}

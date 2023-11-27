@@ -1,0 +1,121 @@
+body {
+    background-color: #e4eaf7;
+}
+.courses_title {
+    width: 100%;
+    background-color: #b5cce7;
+}
+
+.courses_title h1 {
+    width: fit-content;
+    padding: 20px 0 0 55px;
+    border-bottom: solid #1e3552 2px;
+    color: #1e3552;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.courses_title p {
+    padding: 15px 0 0 55px;
+    width: fit-content;
+    color: #493706;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0 15px 0;
+}
+
+main .level_1{
+    display: flex;
+}
+
+
+main .level_1 .l100 {
+    width: 50%;
+    height: fit-content;
+}
+
+main .level_1 .l100 h2 {
+    background-color: #7493e9;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+main .level_1 .l100 h3 {
+    position: relative;
+    font-size: 30px;
+    color: #3b5499;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 0 15px 0;
+    left: 5vh;
+}
+
+main .level_1 .l100 p {
+    position: relative;
+    border-left: #7493e9 solid 3px;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 5px 5px 5px;
+    padding: 5px 0 15px 20px;
+    left: 5vh;
+}
+
+main .level_1 .l200 {
+    width: 50%;
+    height: fit-content;
+}
+
+main .level_1 .l200 h2 {
+    background-color: #7493e9;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+main .level_1 .l200 h3 {
+    position: relative;
+    font-size: 30px;
+    color: #3b5499;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 0 15px 0;
+    left: 5vh;
+    width: fit-content;
+}
+
+main .level_1 .l200 p {
+    border-left: #7493e9 solid 3px;
+    position: relative;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 5px 5px 5px;
+    padding: 5px 0 15px 20px;
+    left: 5vh;
+    width: fit-content;
+}
+
+.other_programs {
+    display: block;
+    width: 98%;
+    height: 10vh;
+    margin: 15px 0 15px 15px;
+    border-top: #3b5499 solid 2px;
+}
+
+
+
+.other_programs a {
+    margin: 10px 10px 10px 0;
+    font-size: 22px;
+    border-bottom: #3b5499 solid 2px;
+}
